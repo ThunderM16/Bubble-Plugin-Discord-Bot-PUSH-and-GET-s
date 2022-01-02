@@ -240,12 +240,12 @@
         "ABO": {
             "initialized": true,
             "method": "get",
-            "name": "Get A Users Ban From Guild",
+            "name": "Get A Users Ban Reason From Guild",
             "publish_as": "data",
             "rank": 12,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABO",
-            "should_reinitialize": true,
-            "types": "{\"plugin_api.ABO\":{\"caption\":\"Get A Users Ban From Guild\",\"fields\":{\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"747964541664755762\",\"path\":[\"user\",\"id\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"4DoorsNoWhores\",\"path\":[\"user\",\"username\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"d52926eff7f3e405e37826c2b284088c\",\"path\":[\"user\",\"avatar\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"7560\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":128,\"path\":[\"user\",\"public_flags\"]},\"_p_reason\":{\"ret_value\":\"text\",\"caption\":\"reason\",\"sample_value\":null,\"path\":[\"reason\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABO\":{\"caption\":\"Get A Users Ban Reason From Guild\",\"fields\":{\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"747964541664755762\",\"path\":[\"user\",\"id\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"4DoorsNoWhores\",\"path\":[\"user\",\"username\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"d52926eff7f3e405e37826c2b284088c\",\"path\":[\"user\",\"avatar\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"7560\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":128,\"path\":[\"user\",\"public_flags\"]},\"_p_reason\":{\"ret_value\":\"text\",\"caption\":\"reason\",\"sample_value\":null,\"path\":[\"reason\"]}}}}",
             "url": "https://discord.com/api/v9/guilds/[guild.id]/bans/[user.id]",
             "url_params": {
                 "ABP": {
@@ -285,7 +285,7 @@
             "name": "Remove a ban from user from GuildID",
             "no_types": true,
             "publish_as": "action",
-            "rank": 13,
+            "rank": 14,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABR",
             "should_reinitialize": true,
             "types": "{\"plugin_api.ABR\":{\"caption\":\"Make a channel\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"💬-general-chat\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]}}}}",
@@ -327,7 +327,7 @@
             "name": "Add a ban from user from GuildID ",
             "no_types": true,
             "publish_as": "action",
-            "rank": 14,
+            "rank": 15,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABa",
             "should_reinitialize": true,
             "types": "{\"plugin_api.ABa\":{\"caption\":\"Make a channel\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"💬-general-chat\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]}}}}",
@@ -342,6 +342,56 @@
                     "key": "user.id",
                     "private": true,
                     "value": "918910299610939433"
+                }
+            }
+        },
+        "ABl": {
+            "0": "A",
+            "1": "B",
+            "2": "k",
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get GuildID Users Banned",
+            "publish_as": "data",
+            "rank": 13,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABl",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ABk\":{\"caption\":\"Get GuildID Users Banned\",\"fields\":{\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"551526895330525204\",\"path\":[\"user\",\"id\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"Terry_\",\"path\":[\"user\",\"username\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"8475ee2b41e479fe1110334c760b5d9c\",\"path\":[\"user\",\"avatar\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"9467\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":256,\"path\":[\"user\",\"public_flags\"]},\"_p_reason\":{\"ret_value\":\"text\",\"caption\":\"reason\",\"sample_value\":\"constantly breaking rules\",\"path\":[\"reason\"]},\"_p_user.bot\":{\"ret_value\":\"boolean\",\"caption\":\"user bot\",\"sample_value\":true,\"path\":[\"user\",\"bot\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/bans",
+            "url_params": {
+                "ABm": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "ABn": {
+            "body": "",
+            "body_type": "form_data",
+            "data_type": "empty",
+            "doc_link": "https://discord.com/developers/docs/resources/guild#remove-guild-member",
+            "headers": {
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Remove Member From Guild",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 16,
+            "should_reinitialize": true,
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/members/[user.id]",
+            "url_params": {
+                "ABp": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "ABq": {
+                    "key": "user.id",
+                    "private": true,
+                    "value": "556609229683818496"
                 }
             }
         },
@@ -364,5 +414,7 @@
             "value": "email identify guilds guilds.join guilds.members.read messages.read",
             "visibility": "hidden"
         }
+    },
+    "shared_params": {
     }
 }
