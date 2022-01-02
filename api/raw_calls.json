@@ -69,9 +69,9 @@
             "initialized": true,
             "is_list": true,
             "method": "get",
-            "name": "Get Guild Channels",
+            "name": "Get A Guild Channels",
             "publish_as": "data",
-            "rank": 2,
+            "rank": 3,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAL",
             "should_reinitialize": true,
             "types": "{\"plugin_api.AAL\":{\"caption\":\"Get Guild Channel\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585507496012\",\"path\":[\"id\"]},\"_p_last_message_id\":{\"ret_value\":\"text\",\"caption\":\"last_message_id\",\"sample_value\":\"926233596409299045\",\"path\":[\"last_message_id\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"name\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":6,\"path\":[\"position\"]},\"_p_parent_id\":{\"ret_value\":\"text\",\"caption\":\"parent_id\",\"sample_value\":\"917264257765228564\",\"path\":[\"parent_id\"]},\"_p_topic\":{\"ret_value\":\"text\",\"caption\":\"topic\",\"sample_value\":\"create a ticket @ https://dislist.me/version-test/dash?tab=Support&sub=Tickets\",\"path\":[\"topic\"]},\"_p_guild_id\":{\"ret_value\":\"text\",\"caption\":\"guild_id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild_id\"]},\"_p_permission_overwrites\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAL.permission_overwrites\",\"caption\":\"permission_overwrites\",\"path\":[\"permission_overwrites\"]},\"_p_nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"nsfw\",\"sample_value\":false,\"path\":[\"nsfw\"]},\"_p_rate_limit_per_user\":{\"ret_value\":\"number\",\"caption\":\"rate_limit_per_user\",\"sample_value\":0,\"path\":[\"rate_limit_per_user\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":null,\"path\":[\"banner\"]},\"_p_last_pin_timestamp\":{\"ret_value\":\"text\",\"caption\":\"last_pin_timestamp\",\"sample_value\":\"2021-12-18T03:17:12+00:00\",\"path\":[\"last_pin_timestamp\"]},\"_p_bitrate\":{\"ret_value\":\"number\",\"caption\":\"bitrate\",\"sample_value\":8000,\"path\":[\"bitrate\"]},\"_p_user_limit\":{\"ret_value\":\"number\",\"caption\":\"user_limit\",\"sample_value\":0,\"path\":[\"user_limit\"]},\"_p_rtc_region\":{\"ret_value\":\"text\",\"caption\":\"rtc_region\",\"sample_value\":null,\"path\":[\"rtc_region\"]},\"_p_default_auto_archive_duration\":{\"ret_value\":\"number\",\"caption\":\"default_auto_archive_duration\",\"sample_value\":1440,\"path\":[\"default_auto_archive_duration\"]}}},\"plugin_api.AAL.permission_overwrites\":{\"caption\":\"Get Guild Channels permission_overwrite\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"role\",\"path\":[\"type\"]},\"_p_allow\":{\"ret_value\":\"number\",\"caption\":\"allow\",\"sample_value\":66560,\"path\":[\"allow\"]},\"_p_deny\":{\"ret_value\":\"number\",\"caption\":\"deny\",\"sample_value\":0,\"path\":[\"deny\"]},\"_p_allow_new\":{\"ret_value\":\"text\",\"caption\":\"allow_new\",\"sample_value\":\"66560\",\"path\":[\"allow_new\"]},\"_p_deny_new\":{\"ret_value\":\"text\",\"caption\":\"deny_new\",\"sample_value\":\"0\",\"path\":[\"deny_new\"]}}}}",
@@ -87,9 +87,9 @@
         "AAN": {
             "initialized": true,
             "method": "get",
-            "name": "Get Invite",
+            "name": "Get Info From Invite",
             "publish_as": "data",
-            "rank": 3,
+            "rank": 2,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAN",
             "should_reinitialize": true,
             "types": "{\"plugin_api.AAN\":{\"caption\":\"Get Invite\",\"fields\":{\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"cTsUuEZ9yM\",\"path\":[\"code\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_expires_at\":{\"ret_value\":\"text\",\"caption\":\"expires_at\",\"sample_value\":null,\"path\":[\"expires_at\"]},\"_p_guild.id\":{\"ret_value\":\"text\",\"caption\":\"guild id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild\",\"id\"]},\"_p_guild.name\":{\"ret_value\":\"text\",\"caption\":\"guild name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"guild\",\"name\"]},\"_p_guild.splash\":{\"ret_value\":\"text\",\"caption\":\"guild splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"guild\",\"splash\"]},\"_p_guild.banner\":{\"ret_value\":\"text\",\"caption\":\"guild banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"guild\",\"banner\"]},\"_p_guild.description\":{\"ret_value\":\"text\",\"caption\":\"guild description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"guild\",\"description\"]},\"_p_guild.icon\":{\"ret_value\":\"text\",\"caption\":\"guild icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"guild\",\"icon\"]},\"_p_guild.features\":{\"ret_value\":\"list.text\",\"caption\":\"guild features\",\"sample_value\":\"PREVIEW_ENABLED\",\"path\":[\"guild\",\"features\"]},\"_p_guild.verification_level\":{\"ret_value\":\"number\",\"caption\":\"guild verification_level\",\"sample_value\":2,\"path\":[\"guild\",\"verification_level\"]},\"_p_guild.vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"guild vanity_url_code\",\"sample_value\":null,\"path\":[\"guild\",\"vanity_url_code\"]},\"_p_guild.welcome_screen.description\":{\"ret_value\":\"text\",\"caption\":\"guild welcome_screen description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"guild\",\"welcome_screen\",\"description\"]},\"_p_guild.welcome_screen.welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAN.guild.welcome_screen.welcome_channels\",\"caption\":\"guild welcome_screen welcome_channels\",\"path\":[\"guild\",\"welcome_screen\",\"welcome_channels\"]},\"_p_guild.nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"guild nsfw\",\"sample_value\":false,\"path\":[\"guild\",\"nsfw\"]},\"_p_guild.nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"guild nsfw_level\",\"sample_value\":0,\"path\":[\"guild\",\"nsfw_level\"]},\"_p_channel.id\":{\"ret_value\":\"text\",\"caption\":\"channel id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel\",\"id\"]},\"_p_channel.name\":{\"ret_value\":\"text\",\"caption\":\"channel name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"channel\",\"name\"]},\"_p_channel.type\":{\"ret_value\":\"number\",\"caption\":\"channel type\",\"sample_value\":0,\"path\":[\"channel\",\"type\"]},\"_p_inviter.id\":{\"ret_value\":\"text\",\"caption\":\"inviter id\",\"sample_value\":\"676195747904880690\",\"path\":[\"inviter\",\"id\"]},\"_p_inviter.username\":{\"ret_value\":\"text\",\"caption\":\"inviter username\",\"sample_value\":\"🙏Hope\",\"path\":[\"inviter\",\"username\"]},\"_p_inviter.avatar\":{\"ret_value\":\"text\",\"caption\":\"inviter avatar\",\"sample_value\":\"a_e9ed6ffb5bb02e8e09fea756860932dc\",\"path\":[\"inviter\",\"avatar\"]},\"_p_inviter.discriminator\":{\"ret_value\":\"text\",\"caption\":\"inviter discriminator\",\"sample_value\":\"0001\",\"path\":[\"inviter\",\"discriminator\"]},\"_p_inviter.public_flags\":{\"ret_value\":\"number\",\"caption\":\"inviter public_flags\",\"sample_value\":64,\"path\":[\"inviter\",\"public_flags\"]}}},\"plugin_api.AAN.guild.welcome_screen.welcome_channels\":{\"caption\":\"Get Invite guild welcome_screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
@@ -107,7 +107,7 @@
             "initialized": true,
             "is_list": true,
             "method": "get",
-            "name": "Get Guild Roles",
+            "name": "Get A Guild Roles",
             "publish_as": "data",
             "rank": 4,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAP",
@@ -126,7 +126,7 @@
             "initialized": true,
             "is_list": true,
             "method": "get",
-            "name": "Get My Guilds",
+            "name": "Get My Guilds Basic",
             "publish_as": "data",
             "rank": 5,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAS",
@@ -137,7 +137,7 @@
         "AAU": {
             "initialized": true,
             "method": "get",
-            "name": "Get Guild Detailed Info",
+            "name": "Get Guild In Detailed Info",
             "publish_as": "data",
             "rank": 6,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAU",
@@ -152,11 +152,22 @@
                 }
             }
         },
+        "AAW": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get My Discord Profile",
+            "publish_as": "data",
+            "rank": 7,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAW",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"891335306681384962\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"DisList.Me | Bot\",\"path\":[\"username\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"fae9a7c492a88a1a26ee85106f00a9eb\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"1279\",\"path\":[\"discriminator\"]},\"_p_public_flags\":{\"ret_value\":\"number\",\"caption\":\"public_flags\",\"sample_value\":0,\"path\":[\"public_flags\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":0,\"path\":[\"flags\"]},\"_p_bot\":{\"ret_value\":\"boolean\",\"caption\":\"bot\",\"sample_value\":true,\"path\":[\"bot\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":null,\"path\":[\"banner\"]},\"_p_banner_color\":{\"ret_value\":\"text\",\"caption\":\"banner_color\",\"sample_value\":null,\"path\":[\"banner_color\"]},\"_p_accent_color\":{\"ret_value\":\"text\",\"caption\":\"accent_color\",\"sample_value\":null,\"path\":[\"accent_color\"]},\"_p_bio\":{\"ret_value\":\"text\",\"caption\":\"bio\",\"sample_value\":\"\",\"path\":[\"bio\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"sample_value\":\"en-US\",\"path\":[\"locale\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"sample_value\":true,\"path\":[\"mfa_enabled\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":null,\"path\":[\"email\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":true,\"path\":[\"verified\"]}}}}",
+            "url": "https://discordapp.com/api/v9/users/@me"
+        },
         "token_call": {
             "method": "post"
         }
     },
-    "human": "Discord Bot (GET PUSH)",
+    "human": "Discord Bot API",
     "shared_headers": {
         "AAC": {
             "doc": "Add Bot before the bot token like this \nBot Nzg4MTQwMDAxOTg4MzEzMDg5.X9fKkw.hy7ELPpK4QJL-ZsLBf7I76ksXsA",
