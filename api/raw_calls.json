@@ -91,8 +91,8 @@
             "publish_as": "data",
             "rank": 2,
             "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAN",
-            "should_reinitialize": true,
-            "types": "{\"plugin_api.AAN\":{\"caption\":\"Get Invite\",\"fields\":{\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"cTsUuEZ9yM\",\"path\":[\"code\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_expires_at\":{\"ret_value\":\"text\",\"caption\":\"expires_at\",\"sample_value\":null,\"path\":[\"expires_at\"]},\"_p_guild.id\":{\"ret_value\":\"text\",\"caption\":\"guild id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild\",\"id\"]},\"_p_guild.name\":{\"ret_value\":\"text\",\"caption\":\"guild name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"guild\",\"name\"]},\"_p_guild.splash\":{\"ret_value\":\"text\",\"caption\":\"guild splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"guild\",\"splash\"]},\"_p_guild.banner\":{\"ret_value\":\"text\",\"caption\":\"guild banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"guild\",\"banner\"]},\"_p_guild.description\":{\"ret_value\":\"text\",\"caption\":\"guild description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"guild\",\"description\"]},\"_p_guild.icon\":{\"ret_value\":\"text\",\"caption\":\"guild icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"guild\",\"icon\"]},\"_p_guild.features\":{\"ret_value\":\"list.text\",\"caption\":\"guild features\",\"sample_value\":\"PREVIEW_ENABLED\",\"path\":[\"guild\",\"features\"]},\"_p_guild.verification_level\":{\"ret_value\":\"number\",\"caption\":\"guild verification_level\",\"sample_value\":2,\"path\":[\"guild\",\"verification_level\"]},\"_p_guild.vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"guild vanity_url_code\",\"sample_value\":null,\"path\":[\"guild\",\"vanity_url_code\"]},\"_p_guild.welcome_screen.description\":{\"ret_value\":\"text\",\"caption\":\"guild welcome_screen description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"guild\",\"welcome_screen\",\"description\"]},\"_p_guild.welcome_screen.welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAN.guild.welcome_screen.welcome_channels\",\"caption\":\"guild welcome_screen welcome_channels\",\"path\":[\"guild\",\"welcome_screen\",\"welcome_channels\"]},\"_p_guild.nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"guild nsfw\",\"sample_value\":false,\"path\":[\"guild\",\"nsfw\"]},\"_p_guild.nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"guild nsfw_level\",\"sample_value\":0,\"path\":[\"guild\",\"nsfw_level\"]},\"_p_channel.id\":{\"ret_value\":\"text\",\"caption\":\"channel id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel\",\"id\"]},\"_p_channel.name\":{\"ret_value\":\"text\",\"caption\":\"channel name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"channel\",\"name\"]},\"_p_channel.type\":{\"ret_value\":\"number\",\"caption\":\"channel type\",\"sample_value\":0,\"path\":[\"channel\",\"type\"]},\"_p_inviter.id\":{\"ret_value\":\"text\",\"caption\":\"inviter id\",\"sample_value\":\"676195747904880690\",\"path\":[\"inviter\",\"id\"]},\"_p_inviter.username\":{\"ret_value\":\"text\",\"caption\":\"inviter username\",\"sample_value\":\"🙏Hope\",\"path\":[\"inviter\",\"username\"]},\"_p_inviter.avatar\":{\"ret_value\":\"text\",\"caption\":\"inviter avatar\",\"sample_value\":\"a_e9ed6ffb5bb02e8e09fea756860932dc\",\"path\":[\"inviter\",\"avatar\"]},\"_p_inviter.discriminator\":{\"ret_value\":\"text\",\"caption\":\"inviter discriminator\",\"sample_value\":\"0001\",\"path\":[\"inviter\",\"discriminator\"]},\"_p_inviter.public_flags\":{\"ret_value\":\"number\",\"caption\":\"inviter public_flags\",\"sample_value\":64,\"path\":[\"inviter\",\"public_flags\"]}}},\"plugin_api.AAN.guild.welcome_screen.welcome_channels\":{\"caption\":\"Get Invite guild welcome_screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAN\":{\"caption\":\"Get Info From Invite\",\"fields\":{\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"cTsUuEZ9yM\",\"path\":[\"code\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_expires_at\":{\"ret_value\":\"text\",\"caption\":\"expires_at\",\"sample_value\":null,\"path\":[\"expires_at\"]},\"_p_guild.id\":{\"ret_value\":\"text\",\"caption\":\"guild id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild\",\"id\"]},\"_p_guild.name\":{\"ret_value\":\"text\",\"caption\":\"guild name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"guild\",\"name\"]},\"_p_guild.splash\":{\"ret_value\":\"text\",\"caption\":\"guild splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"guild\",\"splash\"]},\"_p_guild.banner\":{\"ret_value\":\"text\",\"caption\":\"guild banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"guild\",\"banner\"]},\"_p_guild.description\":{\"ret_value\":\"text\",\"caption\":\"guild description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"guild\",\"description\"]},\"_p_guild.icon\":{\"ret_value\":\"text\",\"caption\":\"guild icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"guild\",\"icon\"]},\"_p_guild.features\":{\"ret_value\":\"list.text\",\"caption\":\"guild features\",\"sample_value\":\"THREE_DAY_THREAD_ARCHIVE\",\"path\":[\"guild\",\"features\"]},\"_p_guild.verification_level\":{\"ret_value\":\"number\",\"caption\":\"guild verification_level\",\"sample_value\":2,\"path\":[\"guild\",\"verification_level\"]},\"_p_guild.vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"guild vanity_url_code\",\"sample_value\":null,\"path\":[\"guild\",\"vanity_url_code\"]},\"_p_guild.welcome_screen.description\":{\"ret_value\":\"text\",\"caption\":\"guild welcome_screen description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"guild\",\"welcome_screen\",\"description\"]},\"_p_guild.welcome_screen.welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAN.guild.welcome_screen.welcome_channels\",\"caption\":\"guild welcome_screen welcome_channels\",\"path\":[\"guild\",\"welcome_screen\",\"welcome_channels\"]},\"_p_guild.nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"guild nsfw\",\"sample_value\":false,\"path\":[\"guild\",\"nsfw\"]},\"_p_guild.nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"guild nsfw_level\",\"sample_value\":0,\"path\":[\"guild\",\"nsfw_level\"]},\"_p_channel.id\":{\"ret_value\":\"text\",\"caption\":\"channel id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel\",\"id\"]},\"_p_channel.name\":{\"ret_value\":\"text\",\"caption\":\"channel name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"channel\",\"name\"]},\"_p_channel.type\":{\"ret_value\":\"number\",\"caption\":\"channel type\",\"sample_value\":0,\"path\":[\"channel\",\"type\"]},\"_p_inviter.id\":{\"ret_value\":\"text\",\"caption\":\"inviter id\",\"sample_value\":\"676195747904880690\",\"path\":[\"inviter\",\"id\"]},\"_p_inviter.username\":{\"ret_value\":\"text\",\"caption\":\"inviter username\",\"sample_value\":\"🙏Hope\",\"path\":[\"inviter\",\"username\"]},\"_p_inviter.avatar\":{\"ret_value\":\"text\",\"caption\":\"inviter avatar\",\"sample_value\":\"a_e9ed6ffb5bb02e8e09fea756860932dc\",\"path\":[\"inviter\",\"avatar\"]},\"_p_inviter.discriminator\":{\"ret_value\":\"text\",\"caption\":\"inviter discriminator\",\"sample_value\":\"0001\",\"path\":[\"inviter\",\"discriminator\"]},\"_p_inviter.public_flags\":{\"ret_value\":\"number\",\"caption\":\"inviter public_flags\",\"sample_value\":64,\"path\":[\"inviter\",\"public_flags\"]}}},\"plugin_api.AAN.guild.welcome_screen.welcome_channels\":{\"caption\":\"Get Info From Invite guild welcome_screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
             "url": "https://discordapp.com/api/v9/invites/[invite.code]",
             "url_params": {
                 "AAO": {
@@ -163,6 +163,188 @@
             "types": "{\"plugin_api.AAW\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"891335306681384962\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"DisList.Me | Bot\",\"path\":[\"username\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"fae9a7c492a88a1a26ee85106f00a9eb\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"1279\",\"path\":[\"discriminator\"]},\"_p_public_flags\":{\"ret_value\":\"number\",\"caption\":\"public_flags\",\"sample_value\":0,\"path\":[\"public_flags\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":0,\"path\":[\"flags\"]},\"_p_bot\":{\"ret_value\":\"boolean\",\"caption\":\"bot\",\"sample_value\":true,\"path\":[\"bot\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":null,\"path\":[\"banner\"]},\"_p_banner_color\":{\"ret_value\":\"text\",\"caption\":\"banner_color\",\"sample_value\":null,\"path\":[\"banner_color\"]},\"_p_accent_color\":{\"ret_value\":\"text\",\"caption\":\"accent_color\",\"sample_value\":null,\"path\":[\"accent_color\"]},\"_p_bio\":{\"ret_value\":\"text\",\"caption\":\"bio\",\"sample_value\":\"\",\"path\":[\"bio\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"sample_value\":\"en-US\",\"path\":[\"locale\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"sample_value\":true,\"path\":[\"mfa_enabled\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":null,\"path\":[\"email\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":true,\"path\":[\"verified\"]}}}}",
             "url": "https://discordapp.com/api/v9/users/@me"
         },
+        "AAr": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get A Guilds Invites",
+            "publish_as": "data",
+            "rank": 8,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAr",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAr\":{\"caption\":\"Get A Guilds Invite\",\"fields\":{\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"9uHrQWHvbv\",\"path\":[\"code\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_expires_at\":{\"ret_value\":\"text\",\"caption\":\"expires_at\",\"sample_value\":\"2022-01-07T21:44:29+00:00\",\"path\":[\"expires_at\"]},\"_p_guild.id\":{\"ret_value\":\"text\",\"caption\":\"guild id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild\",\"id\"]},\"_p_guild.name\":{\"ret_value\":\"text\",\"caption\":\"guild name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"guild\",\"name\"]},\"_p_guild.splash\":{\"ret_value\":\"text\",\"caption\":\"guild splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"guild\",\"splash\"]},\"_p_guild.banner\":{\"ret_value\":\"text\",\"caption\":\"guild banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"guild\",\"banner\"]},\"_p_guild.description\":{\"ret_value\":\"text\",\"caption\":\"guild description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"guild\",\"description\"]},\"_p_guild.icon\":{\"ret_value\":\"text\",\"caption\":\"guild icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"guild\",\"icon\"]},\"_p_guild.features\":{\"ret_value\":\"list.text\",\"caption\":\"guild features\",\"sample_value\":\"INVITE_SPLASH\",\"path\":[\"guild\",\"features\"]},\"_p_guild.verification_level\":{\"ret_value\":\"number\",\"caption\":\"guild verification_level\",\"sample_value\":2,\"path\":[\"guild\",\"verification_level\"]},\"_p_guild.vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"guild vanity_url_code\",\"sample_value\":null,\"path\":[\"guild\",\"vanity_url_code\"]},\"_p_guild.welcome_screen.description\":{\"ret_value\":\"text\",\"caption\":\"guild welcome_screen description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"guild\",\"welcome_screen\",\"description\"]},\"_p_guild.welcome_screen.welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAr.guild.welcome_screen.welcome_channels\",\"caption\":\"guild welcome_screen welcome_channels\",\"path\":[\"guild\",\"welcome_screen\",\"welcome_channels\"]},\"_p_guild.nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"guild nsfw\",\"sample_value\":false,\"path\":[\"guild\",\"nsfw\"]},\"_p_guild.nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"guild nsfw_level\",\"sample_value\":0,\"path\":[\"guild\",\"nsfw_level\"]},\"_p_channel.id\":{\"ret_value\":\"text\",\"caption\":\"channel id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel\",\"id\"]},\"_p_channel.name\":{\"ret_value\":\"text\",\"caption\":\"channel name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"channel\",\"name\"]},\"_p_channel.type\":{\"ret_value\":\"number\",\"caption\":\"channel type\",\"sample_value\":0,\"path\":[\"channel\",\"type\"]},\"_p_inviter.id\":{\"ret_value\":\"text\",\"caption\":\"inviter id\",\"sample_value\":\"302050872383242240\",\"path\":[\"inviter\",\"id\"]},\"_p_inviter.username\":{\"ret_value\":\"text\",\"caption\":\"inviter username\",\"sample_value\":\"DISBOARD\",\"path\":[\"inviter\",\"username\"]},\"_p_inviter.avatar\":{\"ret_value\":\"text\",\"caption\":\"inviter avatar\",\"sample_value\":\"67342a774a9f2d20d62bfc8553bb98e0\",\"path\":[\"inviter\",\"avatar\"]},\"_p_inviter.discriminator\":{\"ret_value\":\"text\",\"caption\":\"inviter discriminator\",\"sample_value\":\"2760\",\"path\":[\"inviter\",\"discriminator\"]},\"_p_inviter.public_flags\":{\"ret_value\":\"number\",\"caption\":\"inviter public_flags\",\"sample_value\":65536,\"path\":[\"inviter\",\"public_flags\"]},\"_p_inviter.bot\":{\"ret_value\":\"boolean\",\"caption\":\"inviter bot\",\"sample_value\":true,\"path\":[\"inviter\",\"bot\"]},\"_p_uses\":{\"ret_value\":\"number\",\"caption\":\"uses\",\"sample_value\":8,\"path\":[\"uses\"]},\"_p_max_uses\":{\"ret_value\":\"number\",\"caption\":\"max_uses\",\"sample_value\":0,\"path\":[\"max_uses\"]},\"_p_max_age\":{\"ret_value\":\"number\",\"caption\":\"max_age\",\"sample_value\":0,\"path\":[\"max_age\"]},\"_p_temporary\":{\"ret_value\":\"boolean\",\"caption\":\"temporary\",\"sample_value\":false,\"path\":[\"temporary\"]},\"_p_created_at\":{\"ret_value\":\"text\",\"caption\":\"created_at\",\"sample_value\":\"2021-11-24T02:09:31.431000+00:00\",\"path\":[\"created_at\"]}}},\"plugin_api.AAr.guild.welcome_screen.welcome_channels\":{\"caption\":\"Get A Guilds Invites guild welcome_screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/invites",
+            "url_params": {
+                "AAs": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "AAt": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Guild's Welcome Screen",
+            "publish_as": "data",
+            "rank": 9,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAt",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAt\":{\"caption\":\"Get Guild's Welcome Screen\",\"fields\":{\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"description\"]},\"_p_welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAt.welcome_channels\",\"caption\":\"welcome_channels\",\"path\":[\"welcome_channels\"]}}},\"plugin_api.AAt.welcome_channels\":{\"caption\":\"Get Guild's Welcome Screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/welcome-screen",
+            "url_params": {
+                "AAu": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "AAv": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get A Guild's Preview",
+            "publish_as": "data",
+            "rank": 10,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAv",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAv\":{\"caption\":\"Get A Guild's Preview\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"icon\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":null,\"path\":[\"discovery_splash\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"COMMUNITY\",\"path\":[\"features\"]},\"_p_approximate_member_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_member_count\",\"sample_value\":25,\"path\":[\"approximate_member_count\"]},\"_p_approximate_presence_count\":{\"ret_value\":\"number\",\"caption\":\"approximate_presence_count\",\"sample_value\":18,\"path\":[\"approximate_presence_count\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAv.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]}}},\"plugin_api.AAv.emojis\":{\"caption\":\"Get A Guild's Preview emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"admins\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"917265348355588127\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":true,\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":false,\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":true,\"path\":[\"available\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/preview",
+            "url_params": {
+                "AAw": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "AAx": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get List Of A Guild's Members",
+            "publish_as": "data",
+            "rank": 11,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAx",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAx\":{\"caption\":\"Get List Of A Guild's Member\",\"fields\":{\"_p_roles\":{\"ret_value\":\"list.text\",\"caption\":\"roles\",\"sample_value\":\"923033804904484996\",\"path\":[\"roles\"]},\"_p_nick\":{\"ret_value\":\"text\",\"caption\":\"nick\",\"sample_value\":null,\"path\":[\"nick\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":null,\"path\":[\"avatar\"]},\"_p_premium_since\":{\"ret_value\":\"text\",\"caption\":\"premium_since\",\"sample_value\":null,\"path\":[\"premium_since\"]},\"_p_joined_at\":{\"ret_value\":\"text\",\"caption\":\"joined_at\",\"sample_value\":\"2021-12-22T02:06:48.303000+00:00\",\"path\":[\"joined_at\"]},\"_p_is_pending\":{\"ret_value\":\"boolean\",\"caption\":\"is_pending\",\"sample_value\":false,\"path\":[\"is_pending\"]},\"_p_pending\":{\"ret_value\":\"boolean\",\"caption\":\"pending\",\"sample_value\":false,\"path\":[\"pending\"]},\"_p_communication_disabled_until\":{\"ret_value\":\"text\",\"caption\":\"communication_disabled_until\",\"sample_value\":null,\"path\":[\"communication_disabled_until\"]},\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"115385224119975941\",\"path\":[\"user\",\"id\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"DiscordServers\",\"path\":[\"user\",\"username\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"63194e8218b818bfca928a024563855a\",\"path\":[\"user\",\"avatar\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"2383\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":589824,\"path\":[\"user\",\"public_flags\"]},\"_p_user.bot\":{\"ret_value\":\"boolean\",\"caption\":\"user bot\",\"sample_value\":true,\"path\":[\"user\",\"bot\"]},\"_p_mute\":{\"ret_value\":\"boolean\",\"caption\":\"mute\",\"sample_value\":false,\"path\":[\"mute\"]},\"_p_deaf\":{\"ret_value\":\"boolean\",\"caption\":\"deaf\",\"sample_value\":false,\"path\":[\"deaf\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/members",
+            "url_params": {
+                "AAy": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "ABO": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get A Users Ban From Guild",
+            "publish_as": "data",
+            "rank": 12,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABO\":{\"caption\":\"Get A Users Ban From Guild\",\"fields\":{\"_p_user.id\":{\"ret_value\":\"text\",\"caption\":\"user id\",\"sample_value\":\"747964541664755762\",\"path\":[\"user\",\"id\"]},\"_p_user.username\":{\"ret_value\":\"text\",\"caption\":\"user username\",\"sample_value\":\"4DoorsNoWhores\",\"path\":[\"user\",\"username\"]},\"_p_user.avatar\":{\"ret_value\":\"text\",\"caption\":\"user avatar\",\"sample_value\":\"d52926eff7f3e405e37826c2b284088c\",\"path\":[\"user\",\"avatar\"]},\"_p_user.discriminator\":{\"ret_value\":\"text\",\"caption\":\"user discriminator\",\"sample_value\":\"7560\",\"path\":[\"user\",\"discriminator\"]},\"_p_user.public_flags\":{\"ret_value\":\"number\",\"caption\":\"user public_flags\",\"sample_value\":128,\"path\":[\"user\",\"public_flags\"]},\"_p_reason\":{\"ret_value\":\"text\",\"caption\":\"reason\",\"sample_value\":null,\"path\":[\"reason\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/bans/[user.id]",
+            "url_params": {
+                "ABP": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660",
+                    "visibility": "public"
+                },
+                "ABQ": {
+                    "key": "user.id",
+                    "private": true,
+                    "value": "747964541664755762",
+                    "visibility": "public"
+                }
+            }
+        },
+        "ABR": {
+            "body": "<name><type>",
+            "body_params": {
+                "ABW": {
+                    "key": "name",
+                    "private": true,
+                    "value": "💬-general-chat"
+                },
+                "ABX": {
+                    "key": "type",
+                    "private": true,
+                    "value": "0"
+                }
+            },
+            "body_type": "form_data",
+            "data_type": "empty",
+            "headers": {
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Remove a ban from user from GuildID",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 13,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABR\":{\"caption\":\"Make a channel\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"💬-general-chat\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/bans/[user.id]",
+            "url_params": {
+                "ABY": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "ABZ": {
+                    "key": "user.id",
+                    "private": true,
+                    "value": "918910299610939433"
+                }
+            }
+        },
+        "ABb": {
+            "0": "A",
+            "1": "B",
+            "2": "a",
+            "body": "<name><type>",
+            "body_params": {
+                "ABW": {
+                    "key": "name",
+                    "private": true,
+                    "value": "💬-general-chat"
+                },
+                "ABX": {
+                    "key": "type",
+                    "private": true,
+                    "value": "0"
+                }
+            },
+            "body_type": "form_data",
+            "data_type": "empty",
+            "initialized": true,
+            "method": "put",
+            "name": "Add a ban from user from GuildID ",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 14,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.ABa",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABa\":{\"caption\":\"Make a channel\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"💬-general-chat\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]/bans/[user.id]",
+            "url_params": {
+                "ABi": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "ABj": {
+                    "key": "user.id",
+                    "private": true,
+                    "value": "918910299610939433"
+                }
+            }
+        },
         "token_call": {
             "method": "post"
         }
@@ -176,11 +358,11 @@
             "visibility": "secret"
         },
         "AAo": {
+            "doc": "Bot Scopes",
             "key": "Scope",
             "private": true,
-            "visibility": "secret"
+            "value": "email identify guilds guilds.join guilds.members.read messages.read",
+            "visibility": "hidden"
         }
-    },
-    "shared_params": {
     }
 }
