@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "social network"
+    },
+    "description": "This plugin is a discord bot to get and push info from plugin to any server the bot is inside of as of conditions set via your application on bubble.io",
+    "image": "//s3.amazonaws.com/appforest_uf/f1641141018866x195844408832490660/dynoav3331.png",
+    "license": "open_source",
+    "link": "https://discord.com",
+    "name": "Discord Bot PUSH and GET's"
+}

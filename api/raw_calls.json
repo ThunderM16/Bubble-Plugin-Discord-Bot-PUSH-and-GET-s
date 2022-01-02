@@ -1,0 +1,168 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAD": {
+            "body_type": "form_data",
+            "data_type": "empty",
+            "initialized": true,
+            "method": "put",
+            "name": "Add Role",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 0,
+            "should_reinitialize": true,
+            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
+            "url_params": {
+                "AAE": {
+                    "doc": "The ID of the Guild you want the user and role to come from.",
+                    "key": "guildid",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "AAF": {
+                    "doc": "The User ID of the user you want to add the role to",
+                    "key": "userid",
+                    "private": true,
+                    "value": "676195747904880690"
+                },
+                "AAG": {
+                    "doc": "The Role ID of the role you want added to the user",
+                    "key": "roleid",
+                    "private": true,
+                    "value": "905294585494900806"
+                }
+            }
+        },
+        "AAH": {
+            "body_type": "form_data",
+            "data_type": "empty",
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Remove Role",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 1,
+            "should_reinitialize": true,
+            "url": "https://discord.com/api/v9/guilds/[guildid]/members/[userid]/roles/[roleid]",
+            "url_params": {
+                "AAI": {
+                    "doc": "The ID of the Guild you want the user and role to come from.",
+                    "key": "guildid",
+                    "private": true,
+                    "value": "905294585473945660"
+                },
+                "AAJ": {
+                    "doc": "The User ID of the user you want to role the role from",
+                    "key": "userid",
+                    "private": true,
+                    "value": "676195747904880690"
+                },
+                "AAK": {
+                    "doc": "The Role ID of the role you want removed from the user",
+                    "key": "roleid",
+                    "private": true,
+                    "value": "905294585494900806"
+                }
+            }
+        },
+        "AAL": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get Guild Channels",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAL",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAL\":{\"caption\":\"Get Guild Channel\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585507496012\",\"path\":[\"id\"]},\"_p_last_message_id\":{\"ret_value\":\"text\",\"caption\":\"last_message_id\",\"sample_value\":\"926233596409299045\",\"path\":[\"last_message_id\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"name\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":6,\"path\":[\"position\"]},\"_p_parent_id\":{\"ret_value\":\"text\",\"caption\":\"parent_id\",\"sample_value\":\"917264257765228564\",\"path\":[\"parent_id\"]},\"_p_topic\":{\"ret_value\":\"text\",\"caption\":\"topic\",\"sample_value\":\"create a ticket @ https://dislist.me/version-test/dash?tab=Support&sub=Tickets\",\"path\":[\"topic\"]},\"_p_guild_id\":{\"ret_value\":\"text\",\"caption\":\"guild_id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild_id\"]},\"_p_permission_overwrites\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAL.permission_overwrites\",\"caption\":\"permission_overwrites\",\"path\":[\"permission_overwrites\"]},\"_p_nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"nsfw\",\"sample_value\":false,\"path\":[\"nsfw\"]},\"_p_rate_limit_per_user\":{\"ret_value\":\"number\",\"caption\":\"rate_limit_per_user\",\"sample_value\":0,\"path\":[\"rate_limit_per_user\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":null,\"path\":[\"banner\"]},\"_p_last_pin_timestamp\":{\"ret_value\":\"text\",\"caption\":\"last_pin_timestamp\",\"sample_value\":\"2021-12-18T03:17:12+00:00\",\"path\":[\"last_pin_timestamp\"]},\"_p_bitrate\":{\"ret_value\":\"number\",\"caption\":\"bitrate\",\"sample_value\":8000,\"path\":[\"bitrate\"]},\"_p_user_limit\":{\"ret_value\":\"number\",\"caption\":\"user_limit\",\"sample_value\":0,\"path\":[\"user_limit\"]},\"_p_rtc_region\":{\"ret_value\":\"text\",\"caption\":\"rtc_region\",\"sample_value\":null,\"path\":[\"rtc_region\"]},\"_p_default_auto_archive_duration\":{\"ret_value\":\"number\",\"caption\":\"default_auto_archive_duration\",\"sample_value\":1440,\"path\":[\"default_auto_archive_duration\"]}}},\"plugin_api.AAL.permission_overwrites\":{\"caption\":\"Get Guild Channels permission_overwrite\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"role\",\"path\":[\"type\"]},\"_p_allow\":{\"ret_value\":\"number\",\"caption\":\"allow\",\"sample_value\":66560,\"path\":[\"allow\"]},\"_p_deny\":{\"ret_value\":\"number\",\"caption\":\"deny\",\"sample_value\":0,\"path\":[\"deny\"]},\"_p_allow_new\":{\"ret_value\":\"text\",\"caption\":\"allow_new\",\"sample_value\":\"66560\",\"path\":[\"allow_new\"]},\"_p_deny_new\":{\"ret_value\":\"text\",\"caption\":\"deny_new\",\"sample_value\":\"0\",\"path\":[\"deny_new\"]}}}}",
+            "url": "https://discordapp.com/api/guilds/[guild.id]/channels",
+            "url_params": {
+                "AAM": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "AAN": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Invite",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAN",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAN\":{\"caption\":\"Get Invite\",\"fields\":{\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"cTsUuEZ9yM\",\"path\":[\"code\"]},\"_p_type\":{\"ret_value\":\"number\",\"caption\":\"type\",\"sample_value\":0,\"path\":[\"type\"]},\"_p_expires_at\":{\"ret_value\":\"text\",\"caption\":\"expires_at\",\"sample_value\":null,\"path\":[\"expires_at\"]},\"_p_guild.id\":{\"ret_value\":\"text\",\"caption\":\"guild id\",\"sample_value\":\"905294585473945660\",\"path\":[\"guild\",\"id\"]},\"_p_guild.name\":{\"ret_value\":\"text\",\"caption\":\"guild name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"guild\",\"name\"]},\"_p_guild.splash\":{\"ret_value\":\"text\",\"caption\":\"guild splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"guild\",\"splash\"]},\"_p_guild.banner\":{\"ret_value\":\"text\",\"caption\":\"guild banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"guild\",\"banner\"]},\"_p_guild.description\":{\"ret_value\":\"text\",\"caption\":\"guild description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"guild\",\"description\"]},\"_p_guild.icon\":{\"ret_value\":\"text\",\"caption\":\"guild icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"guild\",\"icon\"]},\"_p_guild.features\":{\"ret_value\":\"list.text\",\"caption\":\"guild features\",\"sample_value\":\"PREVIEW_ENABLED\",\"path\":[\"guild\",\"features\"]},\"_p_guild.verification_level\":{\"ret_value\":\"number\",\"caption\":\"guild verification_level\",\"sample_value\":2,\"path\":[\"guild\",\"verification_level\"]},\"_p_guild.vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"guild vanity_url_code\",\"sample_value\":null,\"path\":[\"guild\",\"vanity_url_code\"]},\"_p_guild.welcome_screen.description\":{\"ret_value\":\"text\",\"caption\":\"guild welcome_screen description\",\"sample_value\":\"DisList.Me Is a discord listing service offering users a place to list their discord servers!\",\"path\":[\"guild\",\"welcome_screen\",\"description\"]},\"_p_guild.welcome_screen.welcome_channels\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAN.guild.welcome_screen.welcome_channels\",\"caption\":\"guild welcome_screen welcome_channels\",\"path\":[\"guild\",\"welcome_screen\",\"welcome_channels\"]},\"_p_guild.nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"guild nsfw\",\"sample_value\":false,\"path\":[\"guild\",\"nsfw\"]},\"_p_guild.nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"guild nsfw_level\",\"sample_value\":0,\"path\":[\"guild\",\"nsfw_level\"]},\"_p_channel.id\":{\"ret_value\":\"text\",\"caption\":\"channel id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel\",\"id\"]},\"_p_channel.name\":{\"ret_value\":\"text\",\"caption\":\"channel name\",\"sample_value\":\"📒-our-server-rules\",\"path\":[\"channel\",\"name\"]},\"_p_channel.type\":{\"ret_value\":\"number\",\"caption\":\"channel type\",\"sample_value\":0,\"path\":[\"channel\",\"type\"]},\"_p_inviter.id\":{\"ret_value\":\"text\",\"caption\":\"inviter id\",\"sample_value\":\"676195747904880690\",\"path\":[\"inviter\",\"id\"]},\"_p_inviter.username\":{\"ret_value\":\"text\",\"caption\":\"inviter username\",\"sample_value\":\"🙏Hope\",\"path\":[\"inviter\",\"username\"]},\"_p_inviter.avatar\":{\"ret_value\":\"text\",\"caption\":\"inviter avatar\",\"sample_value\":\"a_e9ed6ffb5bb02e8e09fea756860932dc\",\"path\":[\"inviter\",\"avatar\"]},\"_p_inviter.discriminator\":{\"ret_value\":\"text\",\"caption\":\"inviter discriminator\",\"sample_value\":\"0001\",\"path\":[\"inviter\",\"discriminator\"]},\"_p_inviter.public_flags\":{\"ret_value\":\"number\",\"caption\":\"inviter public_flags\",\"sample_value\":64,\"path\":[\"inviter\",\"public_flags\"]}}},\"plugin_api.AAN.guild.welcome_screen.welcome_channels\":{\"caption\":\"Get Invite guild welcome_screen welcome_channel\",\"fields\":{\"_p_channel_id\":{\"ret_value\":\"text\",\"caption\":\"channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"channel_id\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"Please Read Our Rules To Progress\",\"path\":[\"description\"]},\"_p_emoji_id\":{\"ret_value\":\"text\",\"caption\":\"emoji_id\",\"sample_value\":null,\"path\":[\"emoji_id\"]},\"_p_emoji_name\":{\"ret_value\":\"text\",\"caption\":\"emoji_name\",\"sample_value\":\"🔐\",\"path\":[\"emoji_name\"]}}}}",
+            "url": "https://discordapp.com/api/v9/invites/[invite.code]",
+            "url_params": {
+                "AAO": {
+                    "doc": "",
+                    "key": "invite.code",
+                    "private": true,
+                    "value": "cTsUuEZ9yM"
+                }
+            }
+        },
+        "AAP": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get Guild Roles",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAP",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAP\":{\"caption\":\"Get Guild Role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"@everyone\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"137506324480\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":0,\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"number\",\"caption\":\"color\",\"sample_value\":0,\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"boolean\",\"caption\":\"hoist\",\"sample_value\":false,\"path\":[\"hoist\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":false,\"path\":[\"mentionable\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"bd52752efddf7f930b4f9c8f8386ff95\",\"path\":[\"icon\"]},\"_p_unicode_emoji\":{\"ret_value\":\"text\",\"caption\":\"unicode_emoji\",\"sample_value\":\"⚠️\",\"path\":[\"unicode_emoji\"]},\"_p_tags.premium_subscriber\":{\"ret_value\":\"text\",\"caption\":\"tags premium_subscriber\",\"sample_value\":null,\"path\":[\"tags\",\"premium_subscriber\"]},\"_p_tags.bot_id\":{\"ret_value\":\"text\",\"caption\":\"tags bot_id\",\"sample_value\":\"302050872383242240\",\"path\":[\"tags\",\"bot_id\"]}}}}",
+            "url": "https://discordapp.com/api/v9/guilds/[guild.id]/roles",
+            "url_params": {
+                "AAQ": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "AAS": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get My Guilds",
+            "publish_as": "data",
+            "rank": 5,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAS",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAS\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":false,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"2199023255551\",\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"COMMUNITY\",\"path\":[\"features\"]}}}}",
+            "url": "https://discordapp.com/api/v9/users/@me/guilds"
+        },
+        "AAU": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Guild Detailed Info",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1641139563362x538153106810863600.plugin_api.AAU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"Get Guild Detailed Info\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DisList.Me | LYS\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"09ab83902694e77eea6ac3b6a6c3a430\",\"path\":[\"icon\"]},\"_p_description\":{\"ret_value\":\"text\",\"caption\":\"description\",\"sample_value\":\"DisList.Me is a discord server offering users a place to list their discord servers & later bots!\",\"path\":[\"description\"]},\"_p_splash\":{\"ret_value\":\"text\",\"caption\":\"splash\",\"sample_value\":\"85064c028d72eec3be595977375a6e78\",\"path\":[\"splash\"]},\"_p_discovery_splash\":{\"ret_value\":\"text\",\"caption\":\"discovery_splash\",\"sample_value\":null,\"path\":[\"discovery_splash\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"MEMBER_VERIFICATION_GATE_ENABLED\",\"path\":[\"features\"]},\"_p_emojis\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAU.emojis\",\"caption\":\"emojis\",\"path\":[\"emojis\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"4b75ac3f79be28b2877fc3d06f300e85\",\"path\":[\"banner\"]},\"_p_owner_id\":{\"ret_value\":\"text\",\"caption\":\"owner_id\",\"sample_value\":\"676195747904880690\",\"path\":[\"owner_id\"]},\"_p_application_id\":{\"ret_value\":\"text\",\"caption\":\"application_id\",\"sample_value\":null,\"path\":[\"application_id\"]},\"_p_region\":{\"ret_value\":\"text\",\"caption\":\"region\",\"sample_value\":\"newark\",\"path\":[\"region\"]},\"_p_afk_channel_id\":{\"ret_value\":\"text\",\"caption\":\"afk_channel_id\",\"sample_value\":null,\"path\":[\"afk_channel_id\"]},\"_p_afk_timeout\":{\"ret_value\":\"number\",\"caption\":\"afk_timeout\",\"sample_value\":300,\"path\":[\"afk_timeout\"]},\"_p_system_channel_id\":{\"ret_value\":\"text\",\"caption\":\"system_channel_id\",\"sample_value\":\"905294585507496015\",\"path\":[\"system_channel_id\"]},\"_p_widget_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"widget_enabled\",\"sample_value\":true,\"path\":[\"widget_enabled\"]},\"_p_widget_channel_id\":{\"ret_value\":\"text\",\"caption\":\"widget_channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"widget_channel_id\"]},\"_p_verification_level\":{\"ret_value\":\"number\",\"caption\":\"verification_level\",\"sample_value\":2,\"path\":[\"verification_level\"]},\"_p_roles\":{\"ret_value\":\"list.api.1641139563362x538153106810863600.plugin_api.AAU.roles\",\"caption\":\"roles\",\"path\":[\"roles\"]},\"_p_default_message_notifications\":{\"ret_value\":\"number\",\"caption\":\"default_message_notifications\",\"sample_value\":1,\"path\":[\"default_message_notifications\"]},\"_p_mfa_level\":{\"ret_value\":\"number\",\"caption\":\"mfa_level\",\"sample_value\":0,\"path\":[\"mfa_level\"]},\"_p_explicit_content_filter\":{\"ret_value\":\"number\",\"caption\":\"explicit_content_filter\",\"sample_value\":2,\"path\":[\"explicit_content_filter\"]},\"_p_max_presences\":{\"ret_value\":\"text\",\"caption\":\"max_presences\",\"sample_value\":null,\"path\":[\"max_presences\"]},\"_p_max_members\":{\"ret_value\":\"number\",\"caption\":\"max_members\",\"sample_value\":250000,\"path\":[\"max_members\"]},\"_p_max_video_channel_users\":{\"ret_value\":\"number\",\"caption\":\"max_video_channel_users\",\"sample_value\":25,\"path\":[\"max_video_channel_users\"]},\"_p_vanity_url_code\":{\"ret_value\":\"text\",\"caption\":\"vanity_url_code\",\"sample_value\":null,\"path\":[\"vanity_url_code\"]},\"_p_premium_tier\":{\"ret_value\":\"number\",\"caption\":\"premium_tier\",\"sample_value\":2,\"path\":[\"premium_tier\"]},\"_p_premium_subscription_count\":{\"ret_value\":\"number\",\"caption\":\"premium_subscription_count\",\"sample_value\":7,\"path\":[\"premium_subscription_count\"]},\"_p_system_channel_flags\":{\"ret_value\":\"number\",\"caption\":\"system_channel_flags\",\"sample_value\":13,\"path\":[\"system_channel_flags\"]},\"_p_preferred_locale\":{\"ret_value\":\"text\",\"caption\":\"preferred_locale\",\"sample_value\":\"en-US\",\"path\":[\"preferred_locale\"]},\"_p_rules_channel_id\":{\"ret_value\":\"text\",\"caption\":\"rules_channel_id\",\"sample_value\":\"905294585507496012\",\"path\":[\"rules_channel_id\"]},\"_p_public_updates_channel_id\":{\"ret_value\":\"text\",\"caption\":\"public_updates_channel_id\",\"sample_value\":\"905294586539286564\",\"path\":[\"public_updates_channel_id\"]},\"_p_hub_type\":{\"ret_value\":\"text\",\"caption\":\"hub_type\",\"sample_value\":null,\"path\":[\"hub_type\"]},\"_p_premium_progress_bar_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"premium_progress_bar_enabled\",\"sample_value\":false,\"path\":[\"premium_progress_bar_enabled\"]},\"_p_nsfw\":{\"ret_value\":\"boolean\",\"caption\":\"nsfw\",\"sample_value\":false,\"path\":[\"nsfw\"]},\"_p_nsfw_level\":{\"ret_value\":\"number\",\"caption\":\"nsfw_level\",\"sample_value\":0,\"path\":[\"nsfw_level\"]}}},\"plugin_api.AAU.emojis\":{\"caption\":\"Get Guild Detailed Info emoji\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"admins\",\"path\":[\"name\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"917265348355588127\",\"path\":[\"id\"]},\"_p_require_colons\":{\"ret_value\":\"boolean\",\"caption\":\"require_colons\",\"sample_value\":true,\"path\":[\"require_colons\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_animated\":{\"ret_value\":\"boolean\",\"caption\":\"animated\",\"sample_value\":false,\"path\":[\"animated\"]},\"_p_available\":{\"ret_value\":\"boolean\",\"caption\":\"available\",\"sample_value\":true,\"path\":[\"available\"]}}},\"plugin_api.AAU.roles\":{\"caption\":\"Get Guild Detailed Info role\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"905294585473945660\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"@everyone\",\"path\":[\"name\"]},\"_p_permissions\":{\"ret_value\":\"text\",\"caption\":\"permissions\",\"sample_value\":\"137506324480\",\"path\":[\"permissions\"]},\"_p_position\":{\"ret_value\":\"number\",\"caption\":\"position\",\"sample_value\":0,\"path\":[\"position\"]},\"_p_color\":{\"ret_value\":\"number\",\"caption\":\"color\",\"sample_value\":0,\"path\":[\"color\"]},\"_p_hoist\":{\"ret_value\":\"boolean\",\"caption\":\"hoist\",\"sample_value\":false,\"path\":[\"hoist\"]},\"_p_managed\":{\"ret_value\":\"boolean\",\"caption\":\"managed\",\"sample_value\":false,\"path\":[\"managed\"]},\"_p_mentionable\":{\"ret_value\":\"boolean\",\"caption\":\"mentionable\",\"sample_value\":false,\"path\":[\"mentionable\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"bd52752efddf7f930b4f9c8f8386ff95\",\"path\":[\"icon\"]},\"_p_unicode_emoji\":{\"ret_value\":\"text\",\"caption\":\"unicode_emoji\",\"sample_value\":\"⚠️\",\"path\":[\"unicode_emoji\"]},\"_p_tags.premium_subscriber\":{\"ret_value\":\"text\",\"caption\":\"tags premium_subscriber\",\"sample_value\":null,\"path\":[\"tags\",\"premium_subscriber\"]},\"_p_tags.bot_id\":{\"ret_value\":\"text\",\"caption\":\"tags bot_id\",\"sample_value\":\"302050872383242240\",\"path\":[\"tags\",\"bot_id\"]}}}}",
+            "url": "https://discord.com/api/v9/guilds/[guild.id]",
+            "url_params": {
+                "AAV": {
+                    "key": "guild.id",
+                    "private": true,
+                    "value": "905294585473945660"
+                }
+            }
+        },
+        "token_call": {
+            "method": "post"
+        }
+    },
+    "human": "Discord Bot (GET PUSH)",
+    "shared_headers": {
+        "AAC": {
+            "doc": "Add Bot before the bot token like this \nBot Nzg4MTQwMDAxOTg4MzEzMDg5.X9fKkw.hy7ELPpK4QJL-ZsLBf7I76ksXsA",
+            "key": "Authorization",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}
